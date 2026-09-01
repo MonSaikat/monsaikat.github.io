@@ -12,7 +12,7 @@ export const publications = [
       'TextCNN',
       'Deep Learning',
     ],
-    // links: [{ label: 'Paper', url: 'https://...' }, { label: 'Code', url: 'https://...' }],
+     links: [{ label: 'Paper', url: 'https://...' }, { label: 'Code', url: 'https://...' }],
   },
 {
     title:        'Multi-Channel Stacked TextCNN for Biomedical Multilabel Classification',
