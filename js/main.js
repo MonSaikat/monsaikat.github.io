@@ -1,5 +1,6 @@
 import { profile } from '../data/profile.js';
-import { renderNav, renderFooter, setPageTitle, mount, esc, tags } from './render.js';
+import { news } from '../data/news.js';
+import { renderNav, renderFooter, setPageTitle, mount, esc, tags, renderNewsHTML } from './render.js';
 
 document.addEventListener('DOMContentLoaded', () => {
   setPageTitle(profile, null);
@@ -21,6 +22,8 @@ document.addEventListener('DOMContentLoaded', () => {
       <i class="${esc(c.icon)}"></i> ${esc(c.label)}
     </a>`;
   }).join(''));
+
+  mount('news-content', renderNewsHTML(news));
 
   mount('interests-content', `<div class="tag-row">${tags(profile.researchInterests)}</div>`);
 
