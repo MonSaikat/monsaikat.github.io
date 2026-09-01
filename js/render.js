@@ -83,6 +83,15 @@ export function renderTimeline(items) {
   `).join('');
 }
 
+export function renderNewsHTML(news) {
+  return `<ul class="news-list">${news.map(item => `
+    <li class="news-item">
+      <span class="news-date">${esc(item.date)}</span>
+      <span class="news-body">${item.html}</span>
+    </li>
+  `).join('')}</ul>`;
+}
+
 export function renderPublicationsHTML(publications) {
   return publications.map((pub, i) => `
     <div class="pub-card">
