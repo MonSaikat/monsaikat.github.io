@@ -23,7 +23,8 @@ export function renderNav(profile, activePage) {
   mount('nav-brand', esc(profile.name));
 
   const links = [
-    { href: 'index.html',          label: 'Home' },
+    //{ href: 'index.html',          label: 'Home' },
+    { href: '/',                   label: 'Home' },
     { href: 'education.html',      label: 'Education' },
     { href: 'publications.html',   label: 'Publications' },
     { href: 'projects.html',       label: 'Projects' },
