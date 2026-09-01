@@ -2,15 +2,11 @@
 // Newest first. `date` is a short display string; `html` may contain <strong>/<em>/<a>.
 export const news = [
   {
-    date: 'Sep 2026',
-    html: 'Paper on <strong>Multilingual LLM Safety Evaluation</strong> accepted at <em>Venue Name 2026</em>. 🎉',
-  },
-  {
-    date: 'Jul 2026',
-    html: 'Presented our work on cross-lingual safety alignment at <em>Workshop Name</em>.',
+    date: 'Aug 2026',
+    html: 'Our paper <strong>IndicSafeEval: Safety Robustness of Large Language Models under Multilingual Persuasive Jailbreak Attacks</strong> accepted to <em>EMNLP 2026 Findings</em>. 🎉',
   },
   {
     date: 'Jan 2025',
-    html: 'Started my <strong>PhD</strong> at the School of AI &amp; Data Science, IIT Jodhpur.',
+    html: 'Started my <strong>PhD</strong> at the School of Artificial Intelligence &amp; Data Science, IIT Jodhpur.',
   },
 ];
