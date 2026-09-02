@@ -1,6 +1,5 @@
 /* ============================================================
    SAIKAT MONDAL — ACADEMIC PORTFOLIO
-   Matching mrinanksharma.net warm-cream aesthetic
    ============================================================ */
 
 :root {
@@ -404,25 +403,18 @@ ul { list-style: none; }
   color: #172033;               /* deep navy */
 }
 
-.news-list {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
+.news-list { display: flex; flex-direction: column; }
 
 .news-item {
   display: grid;
   grid-template-columns: 96px 1fr;
   gap: 20px;
-  padding: 16px 20px;
-  background: #FFFFFF;                  /* clean white card */
-  border: 1px solid #E5DED5;           /* subtle beige border */
-  border-left: 3px solid #0F766E;      /* elegant teal accent */
-  border-radius: 6px;
-  transition: background 0.15s ease;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--border-light);   /* same thin divider as the rest of the site */
 }
 
-.news-item:hover { background: #E6F4F1; }   /* very light teal */
+.news-item:first-child { padding-top: 0; }
+.news-item:last-child { border-bottom: none; padding-bottom: 0; }
 
 .news-date {
   font-family: var(--font-sans);
@@ -430,7 +422,7 @@ ul { list-style: none; }
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.06em;
-  color: #7C8798;                       /* muted gray-blue */
+  color: #7C8798;               /* muted gray-blue */
   padding-top: 3px;
   white-space: nowrap;
 }
@@ -438,7 +430,7 @@ ul { list-style: none; }
 .news-body {
   font-family: var(--font-serif);
   font-size: 0.9rem;
-  color: var(--text-secondary);
+  color: #39424F;              /* dark slate — readable on cream, softer than the navy heading */
   line-height: 1.75;
 }
 
