@@ -1,5 +1,6 @@
 /* ============================================================
    SAIKAT MONDAL — ACADEMIC PORTFOLIO
+   Matching mrinanksharma.net warm-cream aesthetic
    ============================================================ */
 
 :root {
@@ -128,19 +129,11 @@ ul { list-style: none; }
   align-items: center;
 }
 
-/* .profile-photo {
+.profile-photo {
   width: 100%;
   max-width: 270px;
   height: auto;
   border-radius: 9px;
-  display: block;
-  margin: 0 auto;
-} */
-.profile-photo {
-  width: 100%;
-  max-width: 260px;
-  height: auto;          /* full image, natural shape, no cropping */
-  border-radius: 12px;
   display: block;
   margin: 0 auto;
 }
@@ -402,27 +395,34 @@ ul { list-style: none; }
 /* ════════════════════════════════════════
    NEWS
 ════════════════════════════════════════ */
-
 .news-heading {
   font-family: var(--font-serif);
-  font-size: 1.85rem;
+  font-size: 1.15rem;
   font-weight: 700;
   letter-spacing: 0.01em;
   text-transform: none;
-  color: var(--text-primary);
+  color: #172033;               /* deep navy */
 }
-.news-list { display: flex; flex-direction: column; }
+
+.news-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
 
 .news-item {
   display: grid;
   grid-template-columns: 96px 1fr;
   gap: 20px;
-  padding: 12px 0;
-  border-bottom: 1px solid var(--border-light);
+  padding: 16px 20px;
+  background: #FFFFFF;                  /* clean white card */
+  border: 1px solid #E5DED5;           /* subtle beige border */
+  border-left: 3px solid #0F766E;      /* elegant teal accent */
+  border-radius: 6px;
+  transition: background 0.15s ease;
 }
 
-.news-item:first-child { padding-top: 0; }
-.news-item:last-child { border-bottom: none; padding-bottom: 0; }
+.news-item:hover { background: #E6F4F1; }   /* very light teal */
 
 .news-date {
   font-family: var(--font-sans);
@@ -430,7 +430,7 @@ ul { list-style: none; }
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.06em;
-  color: var(--text-muted);
+  color: #7C8798;                       /* muted gray-blue */
   padding-top: 3px;
   white-space: nowrap;
 }
@@ -708,7 +708,7 @@ ul { list-style: none; }
 
   .profile-photo {
     max-width: 220px;
-    /* aspect-ratio: 1 / 1; */
+    aspect-ratio: 1 / 1;
   }
 
   .hero-bio h1 { font-size: 1.4rem; }
