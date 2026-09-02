@@ -1,5 +1,6 @@
 /* ============================================================
    SAIKAT MONDAL — ACADEMIC PORTFOLIO
+   Matching mrinanksharma.net warm-cream aesthetic
    ============================================================ */
 
 :root {
@@ -432,6 +433,11 @@ ul { list-style: none; }
   font-size: 0.9rem;
   color: #39424F;              /* dark slate — readable on cream, softer than the navy heading */
   line-height: 1.75;
+}
+
+.news-body strong {
+  color: #1E3A8A;             /* deep blue — highlights paper / venue names */
+  font-weight: 700;
 }
 
 @media (max-width: 720px) {
