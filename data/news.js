@@ -3,7 +3,7 @@
 export const news = [
   {
     date: 'Aug 2026',
-    html: 'Our paper <strong>IndicSafeEval: Safety Robustness of Large Language Models under Multilingual Persuasive Jailbreak Attacks</strong> accepted to <em>EMNLP 2026 Findings</em>. 🎉<a href="https://arxiv.org/abs/2601.12345" target="_blank" rel="noopener">[paper]</a>',
+    html: 'Our paper <strong>IndicSafeEval: Safety Robustness of Large Language Models under Multilingual Persuasive Jailbreak Attacks</strong> accepted to <em>EMNLP 2026 Findings</em>. 🎉<a href="https://arxiv.org" target="_blank" rel="noopener">[paper]</a>',
   },
   {
     date: 'Jan 2025',
